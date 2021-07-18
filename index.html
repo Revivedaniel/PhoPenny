@@ -8,8 +8,45 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Pho Penny</title>
 </head>
-<body>
-    
+<body class="container-fluid p-0">
+    <!--Entire navbar or most outside container-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+        <!--Second container that holds the items and helps spacing even further-->
+        <div class="container">
+            <!--For the brand name or project name-->
+            <a href="./index.html" class="navbar-brand" id="companyName">Pho Penny</a>
+            <!--This creates the burger menu and its functionality-->
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navmenu"
+                >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Actual navigation links container-->
+            <div class="collapse navbar-collapse" id="navmenu">
+                <!--navigation list-->
+                <ul class="navbar-nav ms-auto">
+                    <!--Navigation list items and their links-->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Location &amp; Hours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Call Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Hero-->
+    <div class="hero"></div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="./assets/script/script.js"></script>
 </body>
