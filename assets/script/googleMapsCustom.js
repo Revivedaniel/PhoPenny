@@ -1,14 +1,18 @@
 //Restaurant location
-var laHabraLocation = {lat: 33.9319, lng: -117.9461}
 var phoPennyLocation = {lat: 33.91610909678432, lng: -117.93374894289356}
+
         //Initialiting google map with options
         function initMap(){
             //Map options
             var options = {
                 //Map zoom
-                zoom: 13,
+                zoom: 17,
                 //Where the map will center on
-                center: {lat: laHabraLocation.lat, lng: laHabraLocation.lng}
+                center: {lat: phoPennyLocation.lat, lng: phoPennyLocation.lng},
+                //disable default UI
+                disableDefaultUI: true,
+                //linked map id for custom map styles
+                mapId: '49388f539b8d9343',
             }
             // New map
             var map = new google.maps.Map(document.getElementById("map"), options);
@@ -23,5 +27,5 @@ var phoPennyLocation = {lat: 33.91610909678432, lng: -117.93374894289356}
                 animation: google.maps.Animation.DROP,
                 //to change the marker
                 icon:"",
-            })
+            });
         }
