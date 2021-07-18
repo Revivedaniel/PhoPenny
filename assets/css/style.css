@@ -1,3 +1,11 @@
+:root {
+    --color1: #212121;
+    --color2: grey;
+    --color3: grey;
+    --color4: white;
+    --color5: white;
+}
+
 /*Hero img start*/
 .hero {
     background-image: url(https://codetheweb.blog/assets/img/posts/full-image-hero/image.jpg);
@@ -13,4 +21,13 @@
 #map {
     height: 400px;
     width: 100%;
+}
+
+/*Custom style*/
+#address {
+    color: var(--color1);
+}
+#address:focus, #address:hover {
+    color: var(--color2);
+    text-decoration: underline;
 }
