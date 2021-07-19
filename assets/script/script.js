@@ -10,5 +10,5 @@ directionsButtonEl.addEventListener("click", function(){
 
 //call now button even listener
 callNowButtonEl.addEventListener("click", function(){
-    window.open("tel:123-456-7890", "_self")
+    window.open("tel:+1-123-456-7890", "_self")
 })
