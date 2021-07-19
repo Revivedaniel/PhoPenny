@@ -50,7 +50,12 @@
     </div>
     <!--Google map with marker-->
     <div class="container-fluid p-0 d-flex justify-content-center align-items-end">
-        <button class="btn btn-secondary mb-4" style="z-index: 1;position: absolute;">Get Directions</button>
+        <button 
+            type="button"
+            class="btn btn-secondary mb-4" 
+            style="z-index: 1;position: absolute;">
+            Get Directions
+        </button>
         <div id="map" style="z-index: 0;">
         </div>
     </div>
@@ -63,7 +68,9 @@
                 10&colon;30AM &dash; 8&colon;30PM
             </strong>
             <!--Clickable address-->
-            <a href="#" class="col-4 text-center lead fs-1" id="address">
+            <a href="https://www.google.com/maps/dir//pho+lily/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x80dd2bd6fb3480b1:0x5c57ee957f7e473c?sa=X&ved=2ahUKEwiive_95u_xAhUxHzQIHRBWBQsQ9RcwD3oECFgQBQ" 
+                class="col-4 text-center lead fs-1 custom-address" 
+                target="_blank">
                 1234 N La Habra Blvd<br>
                 La Habra&comma; CA 90631</a>
                 <!--Weekend Hours-->
@@ -178,6 +185,23 @@
             </article>
         </section>
     </main>
+
+    <footer class="container-fluid d-flex flex-column bg-secondary">
+        <section class="d-flex justify-content-evenly py-4">
+            <!--Clickable address-->
+            <a href="https://www.google.com/maps/dir//pho+lily/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x80dd2bd6fb3480b1:0x5c57ee957f7e473c?sa=X&ved=2ahUKEwiive_95u_xAhUxHzQIHRBWBQsQ9RcwD3oECFgQBQ" 
+                class="text-center lead fs-6 custom-address" 
+                target="_blank">
+                1234 N La Habra Blvd<br>
+                La Habra&comma; CA 90631</a>
+            <!--Place holder number-->
+            <a href="tel:123-456-7890" class="text-center lead fs-6 custom-address">Call Now!</a>
+        </section>
+        <section class="d-flex flex-column align-items-center">
+            <h6>&copy; PhoPenny 2021</h6>
+            <h6>Website designed and developed by Daniel Stark</h6>
+        </section>
+    </footer>
 
     <script 
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 

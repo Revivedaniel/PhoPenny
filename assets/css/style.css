@@ -18,16 +18,17 @@
 }
 /*Hero img stop*/
 
+/*google map*/
 #map {
     height: 400px;
     width: 100%;
 }
 
 /*Custom style*/
-#address {
+.custom-address {
     color: var(--color1);
 }
-#address:focus, #address:hover {
+.custom-address:focus, .custom-address:hover {
     color: var(--color2);
     text-decoration: underline;
 }
