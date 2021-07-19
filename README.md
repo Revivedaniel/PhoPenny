@@ -4,7 +4,7 @@ Fake Pho company website
 todo:
 1. Finish menu{Done}
 2. create footer{Done}
-3. make all buttons work
+3. make all buttons work{Done}
 4. clean up style
 5. add any last functionalities
 6. make header sticky
