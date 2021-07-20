@@ -42,3 +42,7 @@
 .custom-background-color-1 {
     background-color: var(--color2);
 }
+
+.custom-padding-top {
+    padding-top: 43px;
+}
