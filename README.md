@@ -11,9 +11,9 @@ todo:
 7. make everything responsive
 - xxl/1400+{Done}
 - xl/1200+{Done}
-- lg/992+
-- md/768+
-- sm/576+
+- lg/992+{Done}
+- md/768+{Done}
+- sm/576+{Done}
 8. write down functionality in readme
 9. test all functionality
 10. fix any/all bugs
