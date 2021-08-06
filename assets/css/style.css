@@ -24,6 +24,10 @@
     width: 100%;
 }
 
+#mapHere {
+    background-image: url(../imgs/mapPlaceHolder.PNG);
+}
+
 /*Custom style*/
 .custom-address {
     color: var(--color1);
