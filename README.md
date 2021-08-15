@@ -28,5 +28,8 @@ Languages Used:
 2. CSS3
 3. JavaScript
 
-Live:
+## Demo
+![PhoPennyDemo](./assets/vids/phoPennyDemo.gif)
+
+## Live Site
 (https://revivedaniel.github.io/PhoPenny/)
